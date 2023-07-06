@@ -16,7 +16,6 @@
     - randomizeStudents()    (rimescolare l'ordine dell'array)
     - printSquads()
 
-
 ESEMPIO. il risultato dovrà essere:
 -------------
 coppia_1
@@ -28,6 +27,9 @@ luca
 stefano
 -------------
 */
+
+const classe = ['Manuela','Luca','Ares','Francesca','Isabella','Stefania','Stefano','Bryan','Cesare','Damiano'];
+
 
 const s1 = {name: 'manuela'}
 const s2 = {name: 'luca'}
