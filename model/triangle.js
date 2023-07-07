@@ -38,4 +38,19 @@ class Triangle{ // composto da una classe precedente (Segment)
         }
     }
 
+        //qui sotto la stessa cosa di sopra fatta da me e Francesca in classe però un po' più ordinato e leggibile
+
+    isRectangle2(){
+        const isHypotenuseAB = this.segmentAB.length **2 === (this.segmentBC.length **2) + (this.segmentCA.length ** 2);
+        const isHypotenuseBC = this.segmentBC.length **2 === (this.segmentCA.length **2) + (this.segmentAB.length ** 2);
+        const isHypotenuseCA = this.segmentCA.length **2 === (this.segmentAB.length **2) + (this.segmentBC.length ** 2);
+        if (isHypotenuseAB || isHypotenuseBC || isHypotenuseCA){
+            return true;
+        }
+
+        return false;
+    }
+
+
+
 }

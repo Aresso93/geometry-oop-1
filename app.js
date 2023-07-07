@@ -17,10 +17,10 @@ console.log('-----------------');
 // esercizio in classe
 console.log(triangle1.area);
 
-console.log(triangle1.isRectangle());
+console.log(triangle1.isRectangle2());
 
 const triangle2 = new Triangle(2, 2, 7, 3, 5, 12);
-console.log(triangle2.isRectangle());
+console.log(triangle2.isRectangle2());
 // ---------
 
 
